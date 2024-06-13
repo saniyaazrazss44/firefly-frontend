@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/web-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>FireFly</title>
+  </head>
+  <body>
+    <div class="main-body">
+      <!-- Navbar -->
+      <div class="navbar-main">
+        <div class="navbar">
+          <img src="assets/icons/firefly-icon.png" alt="image" />
+        </div>
+      </div>
+
+      <!-- Main -->
+      <div class="main-container">
+        <div class="main-content">
+          <div class="main-text-div">
+            <h1 class="roboto-bold">The choice is yours.</h1>
+            <h1 class="roboto-bold">Because they don't have one.</h1>
+          </div>
+          <button class="roboto-medium">QUICK VIEW</button>
+        </div>
+      </div>
+
+      <!-- About -->
+      <div>
+        <div class="about-container">
+          <div class="about-container-one">
+            <div class="about-container-one-img">
+              <img class="" src="assets/images/partFrameImg.png" alt="image" />
+            </div>
+            <div class="about-title-div">
+              <h1 class="about-title roboto-black">About</h1>
+            </div>
+            <div class="about-container-one-img">
+              <img class="" src="assets/images/partFrameImg.png" alt="image" />
+            </div>
+          </div>
+
+          <div class="about-container-two">
+            <div class="about-container-two-img">
+              <img src="assets/images/sparkleImg.png" alt="image" />
+            </div>
+
+            <div class="about-container-content">
+              <p class="roboto-regular">
+                Our products are crafted exclusively from the dreams and screams
+                of young kids who wanted to show their mastery in their chosen
+                fields, but were directed towards a factory for daily wages.
+                Each cracker bursts brighter than their lost smiles, and can be
+                heard louder than their cries for miles. Buy them, burst them,
+                brag about them.
+              </p>
+              <p class="roboto-bold">
+                The choice is yours. Because they don't have one.
+              </p>
+            </div>
+
+            <div class="about-container-two-img">
+              <img src="assets/images/sparkleImg.png" alt="image" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Products -->
+      <div>
+        <div class="product-main">
+          <div class="product-main-container">
+            <div class="product-main-container-img">
+              <img class="" src="assets/images/partFrameImg.png" alt="image" />
+            </div>
+            <div class="product-title-div">
+              <h1 class="roboto-black product-title">Our products</h1>
+            </div>
+            <div class="product-main-container-img">
+              <img class="" src="assets/images/partFrameImg.png" alt="image" />
+            </div>
+          </div>
+
+          <div class="product-grid-container"></div>
+        </div>
+      </div>
+
+      <!-- Product details -->
+
+      <dialog id="productDialog" class="product-details">
+        <div class="prod-modal-container">
+          <button id="btnClose" class="mobile-close-btn">
+            <img src="assets/icons/close-details.png" alt="image" />
+          </button>
+          <div class="prod-modal-container-one">
+            <div class="prod-modal-img">
+              <img id="productModalMainImg" src="" alt="image" />
+            </div>
+
+            <div class="prod-modal-other-images"></div>
+          </div>
+
+          <div class="prod-modal-container-two">
+            <div class="prod-modal-cont2-first">
+              <div class="prod-modal-cont2-content">
+                <h1 class="roboto-medium" id="dialogTitle"></h1>
+                <button id="btnCloseSecondary">
+                  <img src="assets/icons/close-details.png" alt="image" />
+                </button>
+              </div>
+
+              <div class="prod-modal-cont2-price">
+                <h3 class="roboto-regular">MRP&nbsp;:</h3>
+                <h1 class="roboto-bold" id="dialogPrice"></h1>
+              </div>
+
+              <div class="">
+                <div class="prod-modal-cont2-partition">
+                  <img src="assets/images/partition.png" alt="image" />
+                </div>
+
+                <div class="prod-description">
+                  <h3 class="roboto-medium">Product Description&nbsp;:</h3>
+                  <p class="roboto-regular" id="dialogDescription"></p>
+                </div>
+
+                <div class="prod-modal-cont2-partition">
+                  <img src="assets/images/partition.png" alt="image" />
+                </div>
+              </div>
+
+              <div class="prod-content">
+                <h3 class="roboto-medium">Product Contents&nbsp;:</h3>
+                <ul class="prod-list roboto-regular" id="dialogContents"></ul>
+              </div>
+            </div>
+
+            <div class="btnPurchase">
+              <button class="roboto-bold">PURCHASE</button>
+            </div>
+          </div>
+        </div>
+      </dialog>
+
+      <!-- Footer -->
+      <div class="footer-container">
+        <div class="footer-container-one">
+          <div class="foot-container-div-one">
+            <img class="" src="assets/images/partFrameImg.png" alt="image" />
+          </div>
+
+          <div class="foot-container-div-two">
+            <img src="assets/images/yellow-partition.png" alt="image" />
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="footer-decor footer-decor1">
+            <img class="" src="assets/images/decor-img.png" alt="image" />
+          </div>
+          <div class="footer-content">
+            <h3 class="roboto-black">Follow us on</h3>
+            <div class="footer-social-div">
+              <div class="social-icons">
+                <img class="" src="assets/icons/instagram.png" alt="image" />
+              </div>
+              <div class="social-icons">
+                <img class="" src="assets/icons/youtube.png" alt="image" />
+              </div>
+              <div class="social-icons">
+                <img class="" src="assets/icons/twitter.png" alt="image" />
+              </div>
+              <div class="social-icons">
+                <img class="" src="assets/icons/facebook.png" alt="image" />
+              </div>
+              <div class="social-icons">
+                <img class="" src="assets/icons/linkedin.png" alt="image" />
+              </div>
+            </div>
+          </div>
+          <div class="footer-decor footer-decor2">
+            <img class="" src="assets/images/decor-img.png" alt="image" />
+          </div>
+        </div>
+
+        <div class="foot-container-div-two">
+          <img src="assets/images/yellow-partition.png" alt="image" />
+        </div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
